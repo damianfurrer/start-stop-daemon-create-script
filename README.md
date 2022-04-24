@@ -4,3 +4,9 @@ test2.sh controlls it as a daemon, using start-stop-daemon
 
 start-stop-daemon requires privilege 
 The runing privilege can be adjusted tho. Edit user.txt
+
+New crreate damon script:
+used command: ./createdaemon.sh test1.sh "xdaemon"
+edited afterwaardss:
+xdaemon.rc:  added command argument 
+xdaemon.src: changed user:group
