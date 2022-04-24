@@ -14,5 +14,6 @@ Main(){
   done
 }
 
+[ "$DISPLAY" = "" ] && export DISPLAY="$1"
 Main
 exit 0
