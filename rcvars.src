@@ -1,7 +1,0 @@
-#!/bin/sh
-Main(){
-  cd "$(cat /root/test2daemon/thisdir.txt)"
-  source "$(pwd)/vars.src"
-  defvars
-}
-Main

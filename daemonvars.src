@@ -1,8 +1,0 @@
-#!/bin/sh
-Main(){
-  cd "$(cat thisdir.txt)"
-  pwd
-  source "$(pwd)/vars.src"
-  defvars
-}
-Main
