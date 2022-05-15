@@ -56,7 +56,7 @@ writedaemonfile(){
 >> "${daemonname}.rc" echo ''
 >> "${daemonname}.rc" echo 'stop(){'
 >> "${daemonname}.rc" echo '    ebegin "Stopping '"${daemonname}"'"'
->> "${daemonname}.rc" echo '    start-stop-daemon -K $start_stop_daemon_args $command -- $command_args'
+>> "${daemonname}.rc" echo '    start-stop-daemon -K $start_stop_daemon_args $command'
 >> "${daemonname}.rc" echo '    eend $?'
 >> "${daemonname}.rc" echo '}'
 >> "${daemonname}.rc" echo ''
