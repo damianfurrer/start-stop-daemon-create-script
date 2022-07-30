@@ -1,7 +1,8 @@
 # start-stop-daemon-script
 
-New create damon script:
-used command: ./createdaemon.sh test1.sh "xdaemon"
-edited afterwardss:
-xdaemon.rc:  added command argument 
-xdaemon.src: changed user:group
+New create daemon script:
+- used command: ./createdaemon.sh <your script> "xdaemon"
+
+privately edited afterwards:
+- xdaemon.rc:  added command argument to pass to script
+- xdaemon.src: changed user:group
